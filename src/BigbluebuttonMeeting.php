@@ -33,7 +33,7 @@ class BigbluebuttonMeeting implements Meeting
             return $response->getRawXml()->meetings->meeting;
         }
 
-        return false;
+        return true;
     }
 
     /**
@@ -101,6 +101,6 @@ class BigbluebuttonMeeting implements Meeting
             return $response->getRawXml()->recordings->recording;
         }
 
-        return false;
+        return true;
     }
 }

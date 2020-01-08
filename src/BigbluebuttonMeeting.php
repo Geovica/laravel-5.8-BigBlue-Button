@@ -33,7 +33,7 @@ class BigbluebuttonMeeting implements Meeting
             return $response->getRawXml()->meetings->meeting;
         }
 
-        return true;
+        return false;
     }
 
     /**

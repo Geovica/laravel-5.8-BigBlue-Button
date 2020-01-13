@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "<=5.8",
+        "laravel/framework": ">=5.8",
         "bigbluebutton/bigbluebutton-api-php": "dev-master"
 
     },
@@ -22,7 +22,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.5-dev"
+            "dev-master": ".6-dev"
         }
     },
     "minimum-stability": "dev"
